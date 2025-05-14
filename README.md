@@ -52,3 +52,35 @@ User Guide
 6: when you insert void question app will show error message telling you to input correct question
 
 lastly you can exit app by inputting exit.
+
+
+Part 2 Updates 
+
+Featured files
+User_Interface.cs
+Memory_Recall
+Logo.cs
+playNow.cs
+Program.cs
+Logo.jpg
+Chatbot.wav
+
+1: Memory_recall
+The chatbot will recall memory whether the code is closed or stil running.
+
+2: Sentiment
+This is what will show up if you input positive or negative word:
+
+            if (positiveCount > negativeCount)
+                Console.WriteLine("Sentiment: That's great to hear! I love positive energy. 😊");
+            else if (negativeCount > positiveCount)
+                Console.WriteLine("Sentiment: I understand how you feel. If you need advice or support, let me know. 🙁");
+            else
+                Console.WriteLine("Sentiment: Hmm, I'm sensing a neutral vibe. Let's chat and see where we go! 😐");
+
+3: Keywords
+You can now use keywords to search for quiries in the chatbot like 2fa, security, phishing, authentication, wifi and cybersecurity.
+
+4: Random responses
+Chatbot will generate and execute a random cybersecurity tip at the top of the code after the voice greeting and logo.
+
