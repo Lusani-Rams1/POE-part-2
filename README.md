@@ -54,7 +54,7 @@ User Guide
 lastly you can exit app by inputting exit.
 
 
-Part 2 Updates 
+**Part 2 Updates **
 
 Featured files
 User_Interface.cs
